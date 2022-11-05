@@ -152,6 +152,7 @@ opensearch_dashboards_vars=(
     telemetry.optIn
     telemetry.optInStatusUrl
     telemetry.sendUsageFrom
+    vis_builder.enabled
     data_source.enabled
     data_source.encryption.wrappingKeyName
     data_source.encryption.wrappingKeyNamespace
