@@ -61,7 +61,9 @@ ARG OSD_VERSION=2.4.0
 RUN yum update -y && yum install -y tar gzip shadow-utils which \
     libnss3.so xorg-x11-fonts-100dpi xorg-x11-fonts-75dpi xorg-x11-utils \
     xorg-x11-fonts-cyrillic xorg-x11-fonts-Type1 xorg-x11-fonts-misc fontconfig \
-    freetype && yum clean all
+    freetype atk at-spi2-atk cups-libs libdrm dbus-libs at-spi2-core \
+    libXcomposite libXdamage libXfixes mesa-libgbm expat libxcb libxkbcommon \
+    pango cairo alsa-lib && yum clean all
 
 # Create an opensearch-dashboards user, group
 RUN groupadd -g $GID opensearch-dashboards && \
