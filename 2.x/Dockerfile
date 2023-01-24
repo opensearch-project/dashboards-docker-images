@@ -17,7 +17,7 @@ ARG UID=1000
 ARG GID=1000
 ARG OPENSEARCH_DASHBOARDS_HOME=/usr/share/opensearch-dashboards
 ARG TEMP_DIR=/tmp/opensearch-dashboards
-ARG OSD_VERSION=2.4.0
+ARG OSD_VERSION=2.5.0
 
 # Update packages
 # Install the tools we need: tar and gzip to unpack the OpenSearch tarball, and shadow-utils to give us `groupadd` and `useradd`.
@@ -53,7 +53,7 @@ FROM amazonlinux:2
 ARG UID=1000
 ARG GID=1000
 ARG OPENSEARCH_DASHBOARDS_HOME=/usr/share/opensearch-dashboards
-ARG OSD_VERSION=2.4.0
+ARG OSD_VERSION=2.5.0
 
 # Update packages
 # Install the tools we need: tar and gzip to unpack the OpenSearch tarball, and shadow-utils to give us `groupadd` and `useradd`.
