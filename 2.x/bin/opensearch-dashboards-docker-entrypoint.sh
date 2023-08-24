@@ -185,7 +185,7 @@ function setupSecurityDashboardsPlugin {
 function runOpensearchDashboards {
     longopts=()
     for opensearch_dashboards_var in ${opensearch_dashboards_vars[*]}; do
-        # 'opensearch.hosts' -> 'OPENSEARCH_URL'
+        # 'opensearch.hosts' -> 'OPENSEARCH_HOSTS'
         env_var=$(echo ${opensearch_dashboards_var^^} | tr . _)
 
         # Indirectly lookup env var values via the name of the var.
