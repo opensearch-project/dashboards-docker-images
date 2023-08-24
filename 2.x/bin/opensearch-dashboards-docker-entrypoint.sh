@@ -15,9 +15,6 @@
 #
 #       --opensearch.startupTimeout=60
 
-# Setup Home Directory
-export OPENSEARCH_DASHBOARDS_HOME=/usr/share/opensearch-dashboards
-
 opensearch_dashboards_vars=(
     console.enabled
     console.proxyConfig
