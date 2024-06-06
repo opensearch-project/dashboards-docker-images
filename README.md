@@ -1,3 +1,5 @@
+# :warning: We are archiving this repo as all docker related development are currently reside in the [opensearch-build](https://github.com/opensearch-project/opensearch-build/tree/main/docker) repository.
+
 ## OpenSearch Dashboards Docker Images
 
 Main repository where Dockerfiles for OpenSearch Dashboards are hosted. These docker files are used to build images for OpenSearch Dashboards Offical Images
